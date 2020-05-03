@@ -8,9 +8,39 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Overview", "Overview", "{52
 		ReadMe.md = ReadMe.md
 	EndProjectSection
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Program Structure", "Program Structure", "{BC03B2C1-FF53-4B8E-B7BD-CD2C9DDA0FE4}"
+	ProjectSection(SolutionItems) = preProject
+		ProgramStructure.md = ProgramStructure.md
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "TypesAndVariables", "TypesAndVariables", "{26AC8770-9455-4F58-A2AD-93E41114511B}"
+	ProjectSection(SolutionItems) = preProject
+		TypesAndVariables.md = TypesAndVariables.md
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ValueTypes", "ValueTypes\ValueTypes.csproj", "{2D4471A7-BBC6-4AF7-A17B-BDDEDE06094F}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "KeyWords", "KeyWords", "{289549FD-3AB5-4AD3-8C5E-06B860D367C9}"
+	ProjectSection(SolutionItems) = preProject
+		Read.md = Read.md
+	EndProjectSection
+EndProject
 Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{2D4471A7-BBC6-4AF7-A17B-BDDEDE06094F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2D4471A7-BBC6-4AF7-A17B-BDDEDE06094F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2D4471A7-BBC6-4AF7-A17B-BDDEDE06094F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2D4471A7-BBC6-4AF7-A17B-BDDEDE06094F}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{2D4471A7-BBC6-4AF7-A17B-BDDEDE06094F} = {26AC8770-9455-4F58-A2AD-93E41114511B}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {4CAEDE52-F3B9-4FD2-BB73-FD130BA5576B}
